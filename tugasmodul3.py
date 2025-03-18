@@ -21,7 +21,7 @@ while True :
          hasil = angka1*angka2
          print(f'Hasil = {hasil}')
     elif operasi == '4' :
-        if angka2 == 0 :
+        if angka2 == '0':
             print('Error : tidak terdefenisi')
         else :
             hasil = angka1/angka2
